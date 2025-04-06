@@ -12,6 +12,7 @@ P1.6 I2C SDA, P1.7 I2C SCL
 
 P2.6  PS/2 signal clock, P2.7  PS/2 signal data 
  
+P1.0 LED for debug 
 
 This is sample script by mruby. 
 
