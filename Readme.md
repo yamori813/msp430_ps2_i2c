@@ -26,7 +26,7 @@ GETKEY = 1
 t = BsdIic.new(0)
 
 # NUM Lock LED On
-t.write(MSPADDR, SETLED, 4)
+t.write(MSPADDR, SETLED, 2)
 
 usleep 100_000
 
