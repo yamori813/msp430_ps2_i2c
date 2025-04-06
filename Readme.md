@@ -8,11 +8,9 @@ MPS430 connect PS/2 need use level convertor sach as FXMA2102.
 
 My module not have 32Khz crystal. Then can't use WDT function. 
 
-P1.6 I2C SDA 
-P1.7 I2C SCL 
+P1.6 I2C SDA, P1.7 I2C SCL 
 
-P2.6  PS/2 signal clock 
-P2.7  PS/2 signal data 
+P2.6  PS/2 signal clock, P2.7  PS/2 signal data 
  
 
 This is sample script by mruby. 
