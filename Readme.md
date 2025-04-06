@@ -17,7 +17,7 @@ P1.0 LED for debug
 This is sample script by mruby on FreeBSD. 
 
 
-```
+```ruby
 MSPADDR = 0x4a
 
 SETLED = 0
