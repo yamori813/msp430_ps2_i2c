@@ -14,7 +14,7 @@ P2.6  PS/2 signal clock, P2.7  PS/2 signal data
  
 P1.0 LED for debug 
 
-This is sample script by mruby. 
+This is sample script by mruby on FreeBSD. 
 
 
 ```
