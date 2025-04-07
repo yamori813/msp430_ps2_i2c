@@ -140,15 +140,12 @@ int main(void)
     BCSCTL1 = CALBC1_16MHZ;
     DCOCTL  = CALDCO_16MHZ;
 
-    __delay_cycles(16000 * 500);    // 500ms wait
-
     __bis_SR_register(GIE);
 
     init_ps2_kbd();
 
     led = 0;
 
-//    while(1) __asm__("nop");
     while(1) {
         if(key == 0) {
 	    key = get_scancode();
